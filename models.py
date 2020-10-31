@@ -13,6 +13,6 @@ class alumno (models.Model):
 
  def __str__(self):
     return ("ID: {} NOMBRE: {} APELLIDO: {} DNI: {} CELULAR: {} FEHCA DE NACIMIENTO: {} LUGAR DE NACIMIENTO: {} DIRECCION: {}".format(self.id_alumno,self.nombre,self.apellido,self.dni,self.celular,self.fecha_nacimiento,self.lugar_nacimineto,self.direccion))
-    prueba_cambio
+    
 
       
